@@ -36,7 +36,6 @@ confounded with collection source; this is not a held-out bilingual benchmark.
 - `tests/`: alignment, leakage, noise handling, objective, and gradient checks.
 - `notebooks/Complete_Project.ipynb`: walkthrough of saved results.
 - `results/`: primary, extension, bilingual, and split-sensitivity numeric results.
-- `Final Writing Latex/`: manuscript sources, generated tables, figures, and PDFs.
 - `output/pdf/`: named and anonymous reports.
 - `dataset/`: supplied cached inputs and metadata.
 - `model and tasks/`: historical notebooks; these are not the active training path.
@@ -80,11 +79,12 @@ LOKY_MAX_CPU_COUNT=4 .venv/bin/python scripts/verify_robustness.py
 NUMBA_CACHE_DIR="$PWD/tmp/numba" .venv/bin/python scripts/prepare_audio.py --manifest data/bilingual/manifest.json --output data/bilingual/prepared
 LOKY_MAX_CPU_COUNT=4 .venv/bin/python scripts/bilingual_experiment.py
 LOKY_MAX_CPU_COUNT=4 .venv/bin/python scripts/verify_results.py
-.venv/bin/python scripts/build_paper.py
 ```
 
-Paper compilation requires Tectonic or a suitable TeX Live installation.
-The bilingual downloader uses pinned source revisions; network access is required.
+Manuscript LaTeX sources are maintained privately and are not included here.
+Paper compilation requires those private sources and Tectonic or TeX Live.
+Analysis scripts may regenerate local tables and figures in the ignored manuscript
+folder. The bilingual downloader requires network access and uses pinned revisions.
 
 ## Interpretation and limitations
 

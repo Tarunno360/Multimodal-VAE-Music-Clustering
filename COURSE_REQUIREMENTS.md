@@ -22,7 +22,7 @@ The listed mark allocations sum to 110; no estimated grade is claimed.
 | PCA, AE, direct spectrogram controls | `audio_pca`, `audio_ae`, `direct_spectral` | Direct spectral uses all 2,048 pooled features without PCA |
 | Processing scripts | `scripts/prepare_audio.py`, data/model modules | New raw-audio recipe reproduced on bilingual data; original cached recipe is unknown |
 | Reproducible code and results | Configs, hashes, locks, tests, logs, predictions, checkpoints | Local complete package, with public-source candidate archive |
-| NeurIPS-like report | Revised LaTeX and PDF in `Final Writing Latex` | Main text below supplied nine-page limit; additional references, appendix, checklist |
+| NeurIPS-like report | Report PDFs in `output/pdf/`; LaTeX sources maintained privately | Main text below supplied nine-page limit; additional references, appendix, checklist |
 | GitHub repository | Current repository with code, numeric results, and reports | Fresh history; original model artifacts require regeneration |
 | Conference research | Audit, controls, five seeds, three grouped splits and uncertainty analysis | Research draft complete; public provenance, stronger bilingual/artist-independent data and external replication remain |
 

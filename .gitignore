@@ -27,3 +27,6 @@ tmp/
 *.pt
 *.joblib
 /output/*.zip
+
+# Manuscript sources are maintained privately.
+/Final Writing Latex/
