@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "input_hashes_verified": 4,
+  "core_source_hashes_verified": 5,
+  "main_and_extension_checkpoints_reloaded": 60,
+  "heldout_clustering_results_recomputed": 85,
+  "bilingual_checkpoints_reloaded": 5,
+  "bilingual_vae_metrics_recomputed": 10,
+  "bilingual_recording_hashes_verified": 40,
+  "split_groups_disjoint": true,
+  "raw_metric_rows": 1380
+}

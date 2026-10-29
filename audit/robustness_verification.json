@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "neural_checkpoints_reloaded": 60,
+  "heldout_metrics_recomputed": 100,
+  "metric_rows": 1600,
+  "split_seeds": [
+    2027,
+    2028
+  ],
+  "source_and_data_hashes_verified": true,
+  "split_groups_disjoint": true
+}

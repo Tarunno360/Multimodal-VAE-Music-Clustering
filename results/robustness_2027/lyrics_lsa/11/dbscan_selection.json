@@ -1,0 +1,38 @@
+[
+  {
+    "eps": 0.5063479542732239,
+    "score": -2.0,
+    "coverage": 0.9809523809523809,
+    "n_clusters": 1
+  },
+  {
+    "eps": 0.5699452757835388,
+    "score": -2.0,
+    "coverage": 1.0,
+    "n_clusters": 1
+  },
+  {
+    "eps": 1.0126959085464478,
+    "score": -2.0,
+    "coverage": 1.0,
+    "n_clusters": 1
+  },
+  {
+    "eps": 1.1398905515670776,
+    "score": -2.0,
+    "coverage": 1.0,
+    "n_clusters": 1
+  },
+  {
+    "eps": 2.0253918170928955,
+    "score": -2.0,
+    "coverage": 1.0,
+    "n_clusters": 1
+  },
+  {
+    "eps": 2.2797811031341553,
+    "score": -2.0,
+    "coverage": 1.0,
+    "n_clusters": 1
+  }
+]

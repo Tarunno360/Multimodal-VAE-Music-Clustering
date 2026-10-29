@@ -1,0 +1,7 @@
+{
+  "machine_name": "MacBook Air",
+  "machine_model": "MacBookAir10,1",
+  "chip_type": "Apple M1",
+  "physical_memory": "8 GB",
+  "number_processors": "proc 8:0:4:4"
+}

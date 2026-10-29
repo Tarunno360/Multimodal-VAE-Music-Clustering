@@ -1,0 +1,30 @@
+{
+  "config": {
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "epochs": 100,
+    "patience": 15,
+    "warmup": 20,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "latent_dim": 8,
+    "threads": 4
+  },
+  "data_manifest_sha256": "ff6ebfe04595d30dd47fbfe42d5f35573a3eeafaaf6cfadda58ec36c4ed20559",
+  "script_sha256": "068e06678e336f2ad1924cb7717748c05ed27468c10e7e90bffdd50aea552137",
+  "audio_mean": 0.0014989010524004698,
+  "audio_std": 0.3100348114967346,
+  "evaluation": "All 40 clips including training, descriptive only",
+  "limitations": [
+    "Language perfectly confounded with dataset source",
+    "Bengali original track IDs missing",
+    "Bengali paired lyrics unavailable",
+    "License absent from Bengali release",
+    "Only 20 clips per language"
+  ]
+}

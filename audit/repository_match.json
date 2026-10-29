@@ -1,0 +1,30 @@
+{
+  "repository": "Tarunno360/vae-music-clustering",
+  "visibility": "public",
+  "base_commit": "9ec90d546a1f96d5a551f4f1259c0336c7b94c81",
+  "base_tree": "923ea3f1e0f89a96d13b387dcf4465eb9c781c5c",
+  "verified_by": "Git blob SHA-1 over exact file bytes matches the repository tree",
+  "matches": [
+    {
+      "remote": "dataset/audio/processed_spectrograms.npy",
+      "local": "2/data/processed_spectrograms.npy",
+      "git_blob": "401ee1e48fe9b1443f56d463b544d60820c41d50"
+    },
+    {
+      "remote": "dataset/audio/processed_ids.npy",
+      "local": "2/data/processed_ids.npy",
+      "git_blob": "69ea05ae418b2d80c225a5a80057ac39be65d269"
+    },
+    {
+      "remote": "dataset/audio/dataset.csv",
+      "local": "3/data/dataset.csv",
+      "git_blob": "fde59728c0282efe7c2cbfa67f25ac3b87fa7f90"
+    },
+    {
+      "remote": "dataset/lyrics/lyrics_embeddings.npy",
+      "local": "1/data/lyrics_embeddings.npy",
+      "git_blob": "3ba59c9889f48efaf84f623611f6c3e4f8af7f12"
+    }
+  ],
+  "limitation": "Byte identity does not establish source recordings, lyric rights, language labels or the original extraction recipe."
+}

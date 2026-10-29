@@ -1,0 +1,19 @@
+{
+  "sample_rate": 22050,
+  "mono": true,
+  "n_fft": 2048,
+  "hop_length": 512,
+  "n_mels": 128,
+  "power": 2,
+  "db_reference": "per-clip maximum",
+  "top_db": 80,
+  "time_frames": 256,
+  "time_resampling": "linear interpolation",
+  "output_range": [
+    -1,
+    1
+  ],
+  "librosa": "1.0.0",
+  "manifest_sha256": "ff6ebfe04595d30dd47fbfe42d5f35573a3eeafaaf6cfadda58ec36c4ed20559",
+  "script_sha256": "cd3494a0f50786fe07eb8e0a0a003421af2c256fbc40f7b35edd96dc0294a408"
+}

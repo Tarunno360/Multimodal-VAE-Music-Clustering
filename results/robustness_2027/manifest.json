@@ -1,0 +1,130 @@
+{
+  "signature": "ede505087b9ea2df2eacde21c7a0a82613cdbbc2ecd63580ecede534d3978824",
+  "config": {
+    "split_seed": 2027,
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "epochs": 100,
+    "patience": 15,
+    "warmup": 20,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "latent_dim": 32,
+    "text_dim": 64,
+    "clusters": 5,
+    "threads": 4,
+    "models": [
+      {
+        "name": "audio_ae",
+        "kind": "dense",
+        "beta": 0.0,
+        "deterministic": true
+      },
+      {
+        "name": "audio_vae_b01",
+        "kind": "dense",
+        "beta": 0.01
+      },
+      {
+        "name": "conv_vae",
+        "kind": "conv",
+        "beta": 0.01
+      },
+      {
+        "name": "multimodal_vae",
+        "kind": "multimodal",
+        "beta": 0.01
+      },
+      {
+        "name": "hybrid_vae",
+        "kind": "hybrid",
+        "beta": 0.01
+      },
+      {
+        "name": "multimodal_shuffled",
+        "kind": "multimodal",
+        "beta": 0.01,
+        "shuffle_text": true
+      }
+    ]
+  },
+  "sources": {
+    "musicvae/__init__.py": "b88cea982d2877ce42c57491e273083a0b98ce0e0ed0b5b85c6fdb518da89369",
+    "musicvae/data.py": "a01341c648d9be68c8bbf166fdbb0cb00f0b66492fdb5c41355a5f1629666909",
+    "musicvae/experiment.py": "bf5e5017c0430cc3fc0bf699e2165a19df189a529aaa2205a890f68a2e408b26",
+    "musicvae/metrics.py": "8cf21df26f937b6142018d0abf31526d4ad21fb8919da1a8f2ff0e7635cab2e8",
+    "musicvae/models.py": "8471b33cf01020b1f275bdc6f915ae47307c4135c5624e828b95f124e50acb45"
+  },
+  "data": {
+    "spectrograms": {
+      "path": "2/data/processed_spectrograms.npy",
+      "sha256": "0796719784c9c48d49421588a1aa42ed8485441e996edb7530e9ac33f46547c1"
+    },
+    "ids": {
+      "path": "2/data/processed_ids.npy",
+      "sha256": "eea87d34b34ca3c04334c8c80ee7bfe8856d36092d29e4164b0a5aab9dc0d40e"
+    },
+    "metadata": {
+      "path": "3/data/dataset.csv",
+      "sha256": "17edb684db871c1b0d7c0ff224db71231b9083bdfb2cc9d62cf51ed0d604e55f"
+    },
+    "cached_lyrics": {
+      "path": "1/data/lyrics_embeddings.npy",
+      "sha256": "be9dab0c3ed44c00628f70cbb91697ddc7a1e30a785b37f798feac306e385dd7"
+    }
+  },
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "device": "cpu",
+  "packages": {
+    "torch": "2.15.0",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "split_sizes": {
+    "train": 476,
+    "val": 105,
+    "test": 102
+  },
+  "genres": [
+    "country",
+    "pop",
+    "rap",
+    "rb",
+    "rock"
+  ],
+  "split_genres": {
+    "train": {
+      "rock": 124,
+      "rap": 119,
+      "pop": 103,
+      "country": 81,
+      "rb": 49
+    },
+    "val": {
+      "rap": 31,
+      "rock": 24,
+      "pop": 24,
+      "country": 17,
+      "rb": 9
+    },
+    "test": {
+      "rock": 30,
+      "rap": 28,
+      "pop": 26,
+      "country": 11,
+      "rb": 7
+    }
+  },
+  "groups": 676,
+  "text_vocabulary": 10000,
+  "text_svd_train_explained_variance": 0.21840264111586152
+}

@@ -1,0 +1,80 @@
+{
+  "split_seed": 2026,
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "epochs": 100,
+  "patience": 15,
+  "warmup": 20,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "latent_dim": 32,
+  "text_dim": 64,
+  "clusters": 5,
+  "threads": 4,
+  "models": [
+    {
+      "name": "audio_ae",
+      "kind": "dense",
+      "beta": 0.0,
+      "deterministic": true
+    },
+    {
+      "name": "audio_vae_b001",
+      "kind": "dense",
+      "beta": 0.001
+    },
+    {
+      "name": "audio_vae_b01",
+      "kind": "dense",
+      "beta": 0.01
+    },
+    {
+      "name": "audio_vae_b1",
+      "kind": "dense",
+      "beta": 0.1
+    },
+    {
+      "name": "audio_vae_b100",
+      "kind": "dense",
+      "beta": 1.0
+    },
+    {
+      "name": "conv_vae",
+      "kind": "conv",
+      "beta": 0.01
+    },
+    {
+      "name": "multimodal_vae",
+      "kind": "multimodal",
+      "beta": 0.01
+    },
+    {
+      "name": "hybrid_vae",
+      "kind": "hybrid",
+      "beta": 0.01
+    },
+    {
+      "name": "multimodal_freebits",
+      "kind": "multimodal",
+      "beta": 0.01,
+      "free_bits": 0.05
+    },
+    {
+      "name": "multimodal_shuffled",
+      "kind": "multimodal",
+      "beta": 0.01,
+      "shuffle_text": true
+    },
+    {
+      "name": "conditional_oracle",
+      "kind": "dense",
+      "beta": 0.01,
+      "conditional": true
+    }
+  ]
+}

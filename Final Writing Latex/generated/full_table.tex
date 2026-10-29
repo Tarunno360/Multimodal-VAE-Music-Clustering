@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\centering
+\caption{Additional primary metrics, mean $\pm$ SD; DB is lower-better, CH and purity are higher-better. Label-conditioned oracles are shown separately.}
+\label{tab:full}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Representation & DB & CH & Purity \\
+\midrule
+Audio PCA & $1.366\pm0.000$ & $30.657\pm0.000$ & $0.441\pm0.000$ \\
+Lyrics LSA & $3.255\pm0.357$ & $8.775\pm0.753$ & $0.541\pm0.013$ \\
+Fusion PCA & $1.327\pm0.027$ & $33.499\pm0.196$ & $0.447\pm0.005$ \\
+Audio statistics & $1.418\pm0.026$ & $38.519\pm0.186$ & $0.449\pm0.004$ \\
+Direct spectral & $1.809\pm0.000$ & $18.320\pm0.000$ & $0.441\pm0.000$ \\
+Audio AE & $1.431\pm0.254$ & $29.766\pm2.691$ & $0.422\pm0.030$ \\
+Audio VAE (0.001) & $1.573\pm0.089$ & $24.867\pm2.106$ & $0.406\pm0.005$ \\
+Audio VAE (0.01) & $1.607\pm0.140$ & $19.904\pm2.621$ & $0.449\pm0.021$ \\
+Audio VAE (0.1) & $1.503\pm0.130$ & $22.277\pm2.453$ & $0.420\pm0.024$ \\
+Audio VAE (1) & $0.843\pm0.058$ & $132.305\pm14.007$ & $0.427\pm0.015$ \\
+Conv VAE & $1.582\pm0.093$ & $22.702\pm3.373$ & $0.418\pm0.021$ \\
+Multimodal VAE & $1.589\pm0.176$ & $24.059\pm3.916$ & $0.467\pm0.064$ \\
+Hybrid VAE & $1.657\pm0.129$ & $17.110\pm3.880$ & $0.516\pm0.019$ \\
+Multimodal + FB & $1.606\pm0.279$ & $23.630\pm4.698$ & $0.476\pm0.059$ \\
+Shuffled text & $1.788\pm0.080$ & $17.903\pm2.682$ & $0.373\pm0.012$ \\
+\bottomrule
+\end{tabular}
+\end{table}

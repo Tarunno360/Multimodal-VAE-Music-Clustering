@@ -1,0 +1,10 @@
+{
+  "script_sha256": "74dfb6f4f8cc4b0cdfac6cdd6c2c1bcb98bf5f401be47fdc255af2c0a09fbf14",
+  "primary_signature": "e6eaefb5ef93ce4b15ac6890b383f376909ecacd956afa07b0ea3a4f1bd36a43",
+  "metric_files": {
+    "results/rebuilt_v1/metrics.csv": "cef873ff64222eda742ed0658780c1095cd0d6e3ba45220e87a48f904df420f8",
+    "results/requirements_extension/metrics.csv": "b55c815adc5354c458b208305b3746741dcca93f46d52927f9e5d54f5c849f6f"
+  },
+  "bootstrap_resamples": 1000,
+  "bootstrap_seed": 20261029
+}

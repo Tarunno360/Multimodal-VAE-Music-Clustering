@@ -1,0 +1,50 @@
+[
+  {
+    "a": "hybrid_vae",
+    "b": "audio_vae_b01",
+    "mean_difference": 0.11140954747496264,
+    "lower95": 0.02964457384454275,
+    "upper95": 0.19506068839328708,
+    "resamples": 1000
+  },
+  {
+    "a": "hybrid_vae",
+    "b": "lyrics_lsa",
+    "mean_difference": -0.019784217849976776,
+    "lower95": -0.12626289839419622,
+    "upper95": 0.09240011294822509,
+    "resamples": 1000
+  },
+  {
+    "a": "hybrid_vae",
+    "b": "fusion_pca",
+    "mean_difference": 0.11781633509218176,
+    "lower95": 0.027311430830682944,
+    "upper95": 0.2106100156305984,
+    "resamples": 1000
+  },
+  {
+    "a": "multimodal_vae",
+    "b": "multimodal_shuffled",
+    "mean_difference": 0.1215100566021982,
+    "lower95": 0.02814655760118628,
+    "upper95": 0.24302343691959344,
+    "resamples": 1000
+  },
+  {
+    "a": "multimodal_freebits",
+    "b": "multimodal_vae",
+    "mean_difference": 0.018787895670455496,
+    "lower95": -0.05952148570039857,
+    "upper95": 0.09502578134843115,
+    "resamples": 1000
+  },
+  {
+    "a": "audio_vae_b01",
+    "b": "audio_pca",
+    "mean_difference": 0.009261903429272855,
+    "lower95": -0.04006254923337049,
+    "upper95": 0.05988215614393401,
+    "resamples": 1000
+  }
+]

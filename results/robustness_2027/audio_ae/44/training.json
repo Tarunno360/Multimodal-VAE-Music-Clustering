@@ -1,0 +1,27 @@
+{
+  "best_epoch": 98,
+  "epochs_run": 100,
+  "best_val_objective": 0.16999955475330353,
+  "parameters": 1145792,
+  "seconds": 2.8950127500002054,
+  "diagnostics": {
+    "train": {
+      "active_units": 32,
+      "mean_latent_variance": 2.6098132133483887,
+      "effective_rank": 6.907614231109619,
+      "audio_mse_at_mean": 0.11375416815280914
+    },
+    "val": {
+      "active_units": 32,
+      "mean_latent_variance": 2.516129732131958,
+      "effective_rank": 5.617687225341797,
+      "audio_mse_at_mean": 0.16999956965446472
+    },
+    "test": {
+      "active_units": 32,
+      "mean_latent_variance": 2.195310354232788,
+      "effective_rank": 5.926315784454346,
+      "audio_mse_at_mean": 0.15584273636341095
+    }
+  }
+}

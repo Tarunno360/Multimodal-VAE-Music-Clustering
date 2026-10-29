@@ -1,0 +1,5 @@
+Feature_Set,Algorithm,Silhouette_Score,Davies_Bouldin_Index,Calinski_Harabasz_Index,ARI,N_Clusters
+Conv-VAE,K-Means,0.29472035,1.3069106739582117,208.42053,N/A,5
+Conv-VAE,Agglomerative,0.25946295,1.4790758196066993,175.01921,N/A,5
+Hybrid-VAE,K-Means,0.19792426,1.6515101999295112,129.60217,N/A,5
+Hybrid-VAE,Agglomerative,0.22031115,1.7430242600767625,109.33023,N/A,5

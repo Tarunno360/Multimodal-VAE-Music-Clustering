@@ -1,0 +1,41 @@
+{
+  "n_metadata": 796,
+  "n_processed": 683,
+  "unique_groups": 676,
+  "genre_counts": {
+    "rock": 178,
+    "rap": 178,
+    "pop": 153,
+    "country": 109,
+    "rb": 65
+  },
+  "raw_audio_present": 0,
+  "bengali_script_rows": 0,
+  "audio_shape": [
+    683,
+    128,
+    256
+  ],
+  "audio_range": [
+    -1.0,
+    1.0
+  ],
+  "manifest": {
+    "spectrograms": {
+      "path": "2/data/processed_spectrograms.npy",
+      "sha256": "0796719784c9c48d49421588a1aa42ed8485441e996edb7530e9ac33f46547c1"
+    },
+    "ids": {
+      "path": "2/data/processed_ids.npy",
+      "sha256": "eea87d34b34ca3c04334c8c80ee7bfe8856d36092d29e4164b0a5aab9dc0d40e"
+    },
+    "metadata": {
+      "path": "3/data/dataset.csv",
+      "sha256": "17edb684db871c1b0d7c0ff224db71231b9083bdfb2cc9d62cf51ed0d604e55f"
+    },
+    "cached_lyrics": {
+      "path": "1/data/lyrics_embeddings.npy",
+      "sha256": "be9dab0c3ed44c00628f70cbb91697ddc7a1e30a785b37f798feac306e385dd7"
+    }
+  }
+}

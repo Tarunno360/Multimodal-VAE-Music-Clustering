@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Split sensitivity: held-out K-means ARI at $k=5$, mean $\pm$ sample SD over five training seeds per split. Split 2026 is primary; 2027 and 2028 are follow-up evaluations with unchanged settings. These are overlapping splits of the same corpus.}
+\label{tab:robustness}
+\begin{tabular}{lrrr}
+\toprule
+Representation & Split 2026 & Split 2027 & Split 2028 \\
+\midrule
+Audio PCA & $0.086\pm0.000$ & $0.064\pm0.006$ & $0.001\pm0.002$ \\
+Audio statistics & $0.084\pm0.003$ & $0.102\pm0.016$ & $0.017\pm0.001$ \\
+Lyrics LSA & $0.227\pm0.028$ & $0.277\pm0.033$ & $0.272\pm0.031$ \\
+Fusion PCA & $0.089\pm0.010$ & $0.072\pm0.004$ & $0.014\pm0.001$ \\
+Audio AE & $0.072\pm0.010$ & $0.059\pm0.041$ & $0.024\pm0.016$ \\
+Audio VAE (0.01) & $0.096\pm0.020$ & $0.102\pm0.012$ & $0.044\pm0.013$ \\
+Conv VAE & $0.068\pm0.007$ & $0.084\pm0.017$ & $0.012\pm0.005$ \\
+Multimodal VAE & $0.153\pm0.096$ & $0.178\pm0.057$ & $0.115\pm0.044$ \\
+Hybrid VAE & $0.207\pm0.029$ & $0.192\pm0.028$ & $0.183\pm0.042$ \\
+Shuffled text & $0.032\pm0.012$ & $0.025\pm0.018$ & $-0.009\pm0.003$ \\
+\bottomrule
+\end{tabular}
+\end{table}

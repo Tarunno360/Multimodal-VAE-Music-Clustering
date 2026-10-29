@@ -1,0 +1,22 @@
+[
+  {
+    "file": "neurips_2024.pdf",
+    "sha256": "d9157a8e078bb0993f383e8f3096a5d6a263ab066b437b70e390822de73d4231",
+    "pages": 20,
+    "main_text_pages": 7,
+    "extreme_margin_pages": [],
+    "unresolved_citations": false,
+    "anonymity_text_check": false,
+    "visual_review": "All prior pages inspected; repository-status paragraph change separately rendered for review."
+  },
+  {
+    "file": "anonymous.pdf",
+    "sha256": "80f6fcd7326cbbcfd894462a2187509bdf50e1ee1c6cc569479a8d5f06ed4339",
+    "pages": 20,
+    "main_text_pages": 7,
+    "extreme_margin_pages": [],
+    "unresolved_citations": false,
+    "anonymity_text_check": true,
+    "visual_review": "All prior pages inspected; repository-status paragraph change separately rendered for review."
+  }
+]

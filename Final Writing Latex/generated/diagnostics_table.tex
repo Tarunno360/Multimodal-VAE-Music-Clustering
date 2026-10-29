@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\caption{Training latent diagnostics and held-out reconstruction MSE at the posterior mean. AU counts variance above 0.01.}
+\label{tab:diagnostics}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Representation & AU & KL/dim & Test MSE \\
+\midrule
+Audio VAE (0.001) & $32.000\pm0.000$ & $3.222\pm0.082$ & $0.158\pm0.002$ \\
+Audio VAE (0.01) & $32.000\pm0.000$ & $1.193\pm0.068$ & $0.163\pm0.001$ \\
+Audio VAE (0.1) & $29.000\pm1.871$ & $0.268\pm0.017$ & $0.181\pm0.002$ \\
+Audio VAE (1) & $18.600\pm1.817$ & $0.064\pm0.003$ & $0.263\pm0.009$ \\
+Conv VAE & $32.000\pm0.000$ & $1.408\pm0.046$ & $0.157\pm0.002$ \\
+Multimodal VAE & $32.000\pm0.000$ & $2.720\pm0.086$ & $0.183\pm0.003$ \\
+Hybrid VAE & $32.000\pm0.000$ & $3.379\pm0.178$ & $0.194\pm0.013$ \\
+Multimodal + FB & $32.000\pm0.000$ & $2.674\pm0.104$ & $0.183\pm0.001$ \\
+Shuffled text & $32.000\pm0.000$ & $2.833\pm0.168$ & $0.183\pm0.004$ \\
+\bottomrule
+\end{tabular}
+\end{table}

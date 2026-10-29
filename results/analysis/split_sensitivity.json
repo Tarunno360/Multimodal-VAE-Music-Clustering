@@ -1,0 +1,66 @@
+{
+  "splits": [
+    {
+      "split_seed": 2026,
+      "split_sizes": {
+        "train": 478,
+        "val": 103,
+        "test": 102
+      },
+      "signature": "e6eaefb5ef93ce4b15ac6890b383f376909ecacd956afa07b0ea3a4f1bd36a43",
+      "metrics_sha256": "cef873ff64222eda742ed0658780c1095cd0d6e3ba45220e87a48f904df420f8"
+    },
+    {
+      "split_seed": 2027,
+      "split_sizes": {
+        "train": 476,
+        "val": 105,
+        "test": 102
+      },
+      "signature": "ede505087b9ea2df2eacde21c7a0a82613cdbbc2ecd63580ecede534d3978824",
+      "metrics_sha256": "d4d8abc23e46d8decac1babe0b5eca165bda8876adcc08e8631f79ef1cbb2d3d"
+    },
+    {
+      "split_seed": 2028,
+      "split_sizes": {
+        "train": 479,
+        "val": 102,
+        "test": 102
+      },
+      "signature": "48fcebab6aff1976b7b0c55842ef25741f7eee53ac6fa8cfc094d172482be772",
+      "metrics_sha256": "6d69fa337bba414c8a37626f33349986e3fb24636d7499fe4b40974bba6c84fe"
+    }
+  ],
+  "contrasts": [
+    {
+      "a": "hybrid_vae",
+      "b": "audio_vae_b01",
+      "differences": {
+        "2026": 0.11140954747496264,
+        "2027": 0.09011215723933297,
+        "2028": 0.1396932130932756
+      }
+    },
+    {
+      "a": "hybrid_vae",
+      "b": "lyrics_lsa",
+      "differences": {
+        "2026": -0.019784217849976776,
+        "2027": -0.08473175266233082,
+        "2028": -0.08889053217738085
+      }
+    },
+    {
+      "a": "multimodal_vae",
+      "b": "multimodal_shuffled",
+      "differences": {
+        "2026": 0.1215100566021982,
+        "2027": 0.15390942132273971,
+        "2028": 0.12390056442825378
+      }
+    }
+  ],
+  "followup_after_primary_analysis": true,
+  "hyperparameters_retuned": false,
+  "interpretation": "Overlapping grouped splits of one corpus; descriptive, not independent datasets."
+}
